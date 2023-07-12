@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap");
+
+body {
+  /* background: linear-gradient(to right, #e0eafc, #cfdef3); */
+  /* background: linear-gradient(to right, lightcyan, lightblue); */
+  background-color: lightcyan;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+table {
+  border: 2px solid dodgerblue;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  border-top: 1px solid dodgerblue;
+}
+thead {
+  text-align: center;
+  background-color: skyblue;
+}
+span {
+  background-color: beige;
+}
+h2 {
+  color: dodgerblue;
+}
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+}
+td:hover {
+  background-color: #fff;
+}

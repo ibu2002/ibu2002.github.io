@@ -1,38 +1,150 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  /* background: linear-gradient(to right, #e0eafc, #cfdef3); */
-  background-color: lightcyan;
+  background-color: #000;
+  color: seashell;
+  font-family: Helvetica, sans-serif, Arial;
+  opacity: 0.9;
 }
-h1,
-h2 {
-  text-align: center;
+nav li a img {
+  float: left;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.float {
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+.float li a {
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica, sans-serif, Arial;
+  padding-right: 20px;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+nav {
+  background-color: #000;
+  height: 69px;
+  border: 1px solid seashell;
+  opacity: 0.9;
+}
+.float li a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+#banner {
+  height: 700px;
+  width: 1200px;
+  background: url(../images/img-mission-background.webp);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+#bannerContent {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+  margin-left: -12px;
+  opacity: 0.9;
+}
+#totm {
+  margin-top: 70px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#totm h1 {
+  margin-bottom: 20px;
+}
+.teavarity img {
+  width: 300px;
+  height: 200px;
+  margin: 20px 20px;
+  border-radius: 5px;
 }
 
-table {
-  border: 2px solid dodgerblue;
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+.teavarity {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* justify-content: space-evenly; */
+}
+.location {
+  height: 500px;
+  width: 100%;
+  background: url(../images/img-locations-background.webp);
+  /* background-position: center; */
+  background-size: cover;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bayside,
+.downtown,
+.oakdale {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  margin-right: 40px;
+  margin-top: 15px;
+  font-size: 22px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
 }
 
-td {
-  border-top: 1px solid dodgerblue;
+.loc {
+  display: flex;
+  flex-direction: row;
 }
-thead {
-  text-align: center;
-  background-color: skyblue;
+.bayside h5,
+h3,
+.downtown h5,
+h3,
+.oakdale h5,
+h3 {
+  font-weight: bold;
 }
-span {
-  background-color: beige;
+.fotdetail {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-h2 {
-  color: dodgerblue;
+.fotdetail p {
+  font-size: 22px;
+  font-weight: bold;
 }
-h1 {
-  font-family: "Roboto Mono", monospace;
-  font-style: italic;
+.fotdetail h2 {
+  font-weight: bold;
 }
-td:hover {
-  background-color: #fff;
+.copyright {
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
+  padding-left: 20px;
 }
